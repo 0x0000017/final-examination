@@ -8,18 +8,18 @@ def generateRandom():
 def reOrder(list, order):
     if order == 'asc':
         list.sort()
-        print(list)
+        print("Ascending: ",list)
     elif order == 'desc':
         list.sort(reverse=True)
-        print(list)
+        print("Descending",list)
     else:
-        print(list)
+        print("None: ",list)
  
 
 for x in range(10):
     list.append(generateRandom())
 
-
+print("Unordered: ", list)
 reOrder(list, 'asc') #Ascending
 # reOrder(list, 'desc') #Descending
 # reOrder(list, 'none') #None

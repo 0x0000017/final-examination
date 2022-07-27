@@ -1,4 +1,4 @@
-#Programmed by: Adrian Arboleda
+
 
 ch = '7'
 x = int(input("Enter a number from 0-35: "))
