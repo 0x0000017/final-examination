@@ -1,15 +1,16 @@
 # Final Examination in Parallel and Distributed Computing
 Adrian Arboleda BSCS 3B
 
-## SIMD vs MIMD
+## LEVEL 1
+### SIMD vs MIMD
 Single-Instruction Multiple-Data (SIMD) and Multiple-Instruction Multiple Data (MIMD) are classification in Flynn’s Taxonomy. SIMD and MIMD both operates on multiple data sets, but they have distinct difference. SIMD, although operates on multiple data, just uses a single instruction for these data because it does have contain a single decoder. On the other hand, MIMD, which also operates on multiple data, does have a multiple instructions for multiple data. It is a system built as a multiprocessor machine. MIMD is much efficient compared to SIMD.
 
-## Pipelining
+### Pipelining
 In computing, a pipeline is the continuous and overlapped movement of instruction to the processor/CPU. It is also known as the arithmetic steps taken by the processor to perform an instruction. Pipelining, on the other hand, is the process of using a pipeline. It is best compared to a manufacturing assembly line in which different parts of a product are being assembled at the same time although ultimately there may be some parts that have to be assembled before others are. Even if there is some sequential dependency, the overall process can take advantage of those operations that can proceed concurrently.
 In conclusion, pipelining in computing term is the process of dividing into an instruction pipeline and arithmetic pipeline. The instruction pipeline represents the stages in which an instruction is moved through the processor, while the arithmetic pipeline represents the parts of arithmetic operation that can be broken down and overlapped as they are performed.
 
 
-## Von Neumann Architecture
+### Von Neumann Architecture
 ![image](https://user-images.githubusercontent.com/73649759/181277456-46d7e7a3-85fb-47cc-b1cd-ae5d688d2648.png)
 
 Von Neumann Architecture, or Princeton architecture, is a computer architecture based on 1945 description by John Von Neumann.
@@ -17,11 +18,11 @@ The modern computers are based on stored program concept where the programs and 
 It is a stored-program computer in which an instruction fetch and a data operation cannot run at the same time.
 It is divided mainly in 3 basic units: Central Processing Unit, Main Memory Unit, and Input and Output Device.
 
-## Central Processing Unit
+### Central Processing Unit
 In Control Unit, this is where all processors handle control signals. It directs all input and output flow, fetches code for instructions, and controls how data moves around the system.
 The calculations needed by CPU is on the Arithmetic/Logic Unit. It performs Additon, Subtractions and Comparisons. It also performs Logical, Bit Shifting, and Arithmetic Operations.
 
-## Memory Unit
+### Memory Unit
 Memory unit contains:
 •	Accumulator – It stores the results of calculations made by Arithmetic/Logic Unit (ALU)
 •	Program Counter – It keeps track of the memory location of the next instructions to be dealt with. The PC then passes this next address to Memory Address Register (MAR).
@@ -30,10 +31,12 @@ Memory unit contains:
 •	Current Instruction Register - It stores the most recently fetched instructions while it is waiting to be coded and executed, and;
 •	Instruction Buffer Register – It is the instruction that is not to be executed immediately is placed in the instruction buffer register IBR.
 
-## Input/Output Devices
+### Input/Output Devices
 This are the programs or data that is read into main memory from the input device or secondary storage under the control of CPU instruction. Output Devices, on the other hand, are used to output the information from the computer. It is then displayed to the user.
 
-## Multiprocessing vs Multithreading
+
+## LEVEL 3
+### Multiprocessing vs Multithreading
 
 Multiprocessing is what a system is called when is has more than one or two processors. The CPU are added for increasing computing speed of the system and because of it, there are many processes that are executed simultaneously. It has two categories – Symmetric and Asymmetric Multiprocessing.
 
